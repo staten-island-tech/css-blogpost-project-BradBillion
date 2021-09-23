@@ -8,43 +8,59 @@ background-size: cover;
 background-position: center;
 
 }
-h1{
+.title{
 color: white;
-font-size: larger;
+font-style: italic;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
-
 }
 
 .block1{
-    background-image: url(pink\ postit.png);
+    /*background-color: black;*/
+    background-image: url(img/pink\ postit.png);
     background-repeat: no-repeat;
 background-size:contain;
 background-position: center;
     position: absolute;
-    top: 30%;
-    left: 10%;
-    width: 60vh
+    top: 20%;
+    left: 5%;
+    height: 60vh;
+    width: 60vh;
+
+    color: rgb(255, 194, 214);
+    text-align: center;
+    font-size: 30px;
     
 }
 
 .block2{
-    text-align: center;
-    background-image: url(green\ postit.png);
+    /*background-color: black;*/
+    background-image: url(img/green\ postit.png);
     background-repeat: no-repeat;
 background-size:contain;
 background-position: center;
     position: absolute;
-    top: 50%;
-    left: 40%;
-width: 100vh;
+    top: 40%;
+    left: 36%;
+    height: 60vh;
+    width: 60vh;
+
+    color: white;
     
 }
 .block3{
-    background-color: black;
-    position: absolute;
-    top: 30%;
-    left: 80%;
+   /*background-color: black;*/
+   background-image: url(img/blue\ postit.png);
+   background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+   position: absolute;
+   top: 20%;
+   left: 65%;
+   height: 60vh;
+   width: 60vh;
+
+   color: white;
 }
 
 -webkit-text-stroke-width: 3px;

@@ -16,5 +16,36 @@ text-align: center;
 
 }
 
+.block1{
+    background-image: url(pink\ postit.png);
+    background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 60vh
+    
+}
+
+.block2{
+    text-align: center;
+    background-image: url(green\ postit.png);
+    background-repeat: no-repeat;
+background-size:contain;
+background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+width: 100vh;
+    
+}
+.block3{
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
 -webkit-text-stroke-width: 3px;
 -webkit-text-stroke-color: rgb(15, 102, 0);

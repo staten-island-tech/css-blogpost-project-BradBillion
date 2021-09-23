@@ -45,8 +45,9 @@ background-position: center;
     height: 60vh;
     width: 60vh;
 
-    color: white;
-    
+    color: rgb(117, 218, 86);
+    text-align: center;
+    font-size: 30px;
 }
 .block3{
    /*background-color: black;*/
@@ -60,7 +61,9 @@ background-position: center;
    height: 60vh;
    width: 60vh;
 
-   color: white;
+   color: rgb(82, 212, 221);
+   text-align: center;
+    font-size: 30px;
 }
 
 -webkit-text-stroke-width: 3px;

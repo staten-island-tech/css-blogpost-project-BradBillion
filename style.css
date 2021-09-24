@@ -27,10 +27,17 @@ background-position: center;
     height: 60vh;
     width: 60vh;
 
-    color: rgb(255, 194, 214);
+    color: rgb(201, 72, 132);
     text-align: center;
     font-size: 30px;
     
+}
+.b1fill{
+   padding-top: 20px;
+    padding-left: 20px;
+    transform: rotate(-3deg);
+width:50vh ;
+
 }
 
 .block2{
@@ -49,6 +56,13 @@ background-position: center;
     text-align: center;
     font-size: 30px;
 }
+
+.b2fill{
+    padding-top: 30px;
+     padding-left: 20px;
+     transform: rotate(-3deg);
+ width:50vh ;
+}
 .block3{
    /*background-color: black;*/
    background-image: url(img/blue\ postit.png);
@@ -61,9 +75,16 @@ background-position: center;
    height: 60vh;
    width: 60vh;
 
-   color: rgb(82, 212, 221);
+   color: rgb(73, 195, 204);
    text-align: center;
     font-size: 30px;
+}
+
+.b3fill{
+    padding-top: 20px;
+     padding-left: 20px;
+     transform: rotate(-3deg);
+ width:50vh ;
 }
 
 -webkit-text-stroke-width: 3px;

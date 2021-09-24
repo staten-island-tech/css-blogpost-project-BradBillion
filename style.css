@@ -1,7 +1,7 @@
 body {
 background-color: rgb(104, 127, 155);
 color: white;
-font-size: 50px;
+font-size: 6vh;
 background-image: url(https://media.istockphoto.com/photos/old-school-chalkboard-picture-id589091614?b=1&k=20&m=589091614&s=170667a&w=0&h=PUYwwaVw2abMKXmAaDGC8msRBrIvDPl7PCvJaYQmEWo=);
 background-repeat: no-repeat;
 background-size: cover;
@@ -29,12 +29,12 @@ background-position: center;
 
     color: rgb(201, 72, 132);
     text-align: center;
-    font-size: 30px;
+    font-size: 3.5vh;
     
 }
 .b1fill{
-   padding-top: 20px;
-    padding-left: 20px;
+   padding-top: 6vh;
+    padding-left: 2vh;
     transform: rotate(-3deg);
 width:50vh ;
 
@@ -54,12 +54,12 @@ background-position: center;
 
     color: rgb(117, 218, 86);
     text-align: center;
-    font-size: 30px;
+    font-size: 3.5vh;
 }
 
 .b2fill{
-    padding-top: 10 rem;
-     padding-left: 20px;
+    padding-top: 6.5vh;
+     padding-left: 2vh;
      transform: rotate(-3deg);
  width:50vh ;
 }
@@ -77,15 +77,22 @@ background-position: center;
 
    color: rgb(73, 195, 204);
    text-align: center;
-    font-size: 30px;
+    font-size: 3.5vh;
 }
 
 .b3fill{
-    padding-top: 20px;
-     padding-left: 20px;
+    padding-top: 6vh;
+     padding-left: 2vh;
      transform: rotate(-3deg);
  width:50vh ;
 }
 
+.img{
+    width: 25vh;
+}
+
+h1, p {
+    display: inline;
+}
 -webkit-text-stroke-width: 3px;
 -webkit-text-stroke-color: rgb(15, 102, 0);

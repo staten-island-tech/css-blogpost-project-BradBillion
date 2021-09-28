@@ -63,6 +63,11 @@ background-position: center;
      transform: rotate(-3deg);
  width:50vh ;
 }
+#b2text{
+padding-top: 19vh;
+
+}
+
 .block3{
    /* background-color: black; */
    background-image: url(img/blue\ postit.png);
@@ -99,23 +104,36 @@ background-position: center;
 }
 #a1{
     position:absolute;
-    left: 5vh;
+    left: 6vh;
+    top: 14vh;
     width: 21vh;
     padding-bottom: 5vh;
     padding-left: 1vh;
+    z-index: 10;
 }
 #a2{
-    top: 5vh
-    width: 15vh;
+    position:absolute;
+    top: 14vh;
+    right: 8vh;
+    width: 24.9vh;
+    z-index: 15;
 }
 #a3{
     position:absolute;
+    top: 14vh;
     right: 5vh;
     width: 15vh;
+    z-index: 20;
+}
+#a4{
+    width: 40vh;
+    padding-left: 1vh;
+
 }
 
 h1, p {
-    display: inline;
+
+    margin: 0;
     
 }
 -webkit-text-stroke-width: 3px;
